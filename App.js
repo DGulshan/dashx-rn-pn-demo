@@ -39,7 +39,7 @@ const Section = ({children, title}) => {
     DashX.configure({
       publicKey: Config.DASHX_PUBLIC_KEY,
       baseUri: Config.DASHX_BASE_URI,
-      targetEnvironment: Config.DASHX_TARGET_ENVIRONMENT
+      targetEnvironment: Config.DASHX_TARGET_ENVIRONMENT,
     });
   }, []);
 
